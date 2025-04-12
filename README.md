@@ -21,6 +21,7 @@ To answer these, we conducted a detailed study using historical retail inventory
 5. [Forecasting and Performance Comparison](#forecasting-and-performance-comparison)
 6. [Conclusion](#conclusion)
 
+
 ## Data Loading
 
 We import the `pandas` library and install the `seaborn` library. We then attempt to load a CSV file containing retail store inventory data into a DataFrame using `pd.read_csv()`.
@@ -46,7 +47,7 @@ We import the `pandas` library and install the `seaborn` library. We then attemp
 - Analyze and remove outliers for key variables.
 
 ### Sales Trend and Variables Relationship Analysis
-- Sales tren ove time.
+- Sales tren over time.
 - Inventory Levels Across Regions.
 - Sales by category, Region, and Weather
 - Sales by Region by Season
@@ -75,6 +76,12 @@ We import the `pandas` library and install the `seaborn` library. We then attemp
 - Define the Prophet model.
 - Perform rolling-origin cross-validation.
 - Fit the final Prophet model on the entire dataset.
+
+### XGBoost
+- Data preparation.
+- Define the XGBoost model.
+- Perform rolling-origin cross-validation.
+- fit the final XGBoost on the entire dataset.
 
 ## Forecasting and Performance Comparison
 
